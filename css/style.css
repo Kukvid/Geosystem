@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+
+:root{
+    --color1: #ffd6a5;
+    --color2: #ff9b9b;
+    --color3: #FFFEC4;
+    --color4: #CBFFA9;
+}
+footer{
+    padding: 100px 0;
+}
+
+header,footer, nav, .projects{
+    background: var(--color1);
+    background: -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
+    background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+}
+
+
+.link-green:hover{
+    color: var(--color3);
+}
+img{
+    min-width: auto;
+    min-height: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.invite,.projects,.activities{
+    background-color: var(--color3);
+    padding: 50px 0;
+}
+h1{
+    padding: 20px 0 10px 0;
+}
+.cards{
+    padding-top: 30px;
+}
+
+.row1-activities-cards{
+    padding: 30px 0 0px 0px;
+}
+.btn-custom-orange{
+    background-color: var(--color2);
+    
+}
+
+.btn-custom-orange:hover{
+    background-color: var(--color1);
+}
+
+.btn-projects{
+    margin: 50px 0 20px 0px;
+    
+}
+.btn-projects:hover{
+    background-color: var(--color4);
+}
+
+.carousel-style{
+    margin: auto;
+    text-align: center;
+    max-height: 40rem;
+    max-width: 40rem;
+}
+
+.text-purple{
+    color: #6A2C70;
+}
+
+footer{
+    margin-top: 40px;
+}
+/* .brand:hover{
+    scale: 1.05;
+}
+.brand:active{
+    scale: 0.95
+} */
