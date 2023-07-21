@@ -10,7 +10,7 @@ footer{
     padding: 100px 0;
 }
 
-header,footer, nav, .projects{
+header,footer, nav, .activities{
     background: var(--color1);
     background: -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
     background: -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
@@ -19,9 +19,7 @@ header,footer, nav, .projects{
 }
 
 
-.link-green:hover{
-    color: var(--color3);
-}
+
 img{
     min-width: auto;
     min-height: auto;
@@ -31,6 +29,10 @@ img{
 
 a{
     text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:var(--color4)
 }
 
 .invite,.projects,.activities{
@@ -64,11 +66,17 @@ h1{
     background-color: var(--color4);
 }
 
-.carousel-style{
+.carousel{
     margin: auto;
     text-align: center;
     max-height: 40rem;
     max-width: 40rem;
+}
+.carousel-item img{
+    margin: auto;
+    text-align: center;
+    max-height: 40rem;
+    max-width: 50rem;
 }
 
 .text-purple{
@@ -78,9 +86,7 @@ h1{
 footer{
     margin-top: 40px;
 }
-/* .brand:hover{
-    scale: 1.05;
+
+p{
+    font-size: 150%;
 }
-.brand:active{
-    scale: 0.95
-} */
