@@ -70,21 +70,18 @@ h1{
     background-color: var(--color4);
 }
 
-.carousel-style{
-    max-width: 45%;
-    max-height: 60%;
-    align-items: center;
+@media (min-width: 781px){
+    .carousel-style{
+        max-width: 45%;
+        max-height: 60%;
+    }
 }
-.carousel-inner img {
-    margin: auto;
-
+@media (max-width: 780px){
+    .carousel-style{
+        max-width: 60%;
+        max-height: 80%;
+    }
   }
-/* .carousel-item img{
-    margin: auto;
-    text-align: center;
-    max-height: 40rem;
-    max-width: 50rem;
-} */
 
 .text-purple{
     color: #6A2C70;
