@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root{
     --color1: #ffd6a5;
@@ -6,9 +6,11 @@
     --color3: #FFFEC4;
     --color4: #CBFFA9;
 }
+
 footer{
     padding: 100px 0;
 }
+
 
 header,footer, nav, .activities{
     background: var(--color1);
@@ -17,7 +19,6 @@ header,footer, nav, .activities{
     background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
-
 
 
 img{
@@ -35,7 +36,7 @@ a:hover{
     color:var(--color4)
 }
 
-.invite,.projects,.activities{
+.invite,.products{
     background-color: var(--color3);
     padding: 50px 0;
 }
@@ -48,6 +49,9 @@ h1{
 
 .row1-activities-cards{
     padding: 30px 0 0px 0px;
+}
+.activities, .employees{
+    padding: 50px 0;
 }
 .btn-custom-orange{
     background-color: var(--color2);
@@ -66,27 +70,34 @@ h1{
     background-color: var(--color4);
 }
 
-.carousel{
-    margin: auto;
-    text-align: center;
-    max-height: 40rem;
-    max-width: 40rem;
+.carousel-style{
+    max-width: 45%;
+    max-height: 60%;
+    align-items: center;
 }
-.carousel-item img{
+.carousel-inner img {
+    margin: auto;
+
+  }
+/* .carousel-item img{
     margin: auto;
     text-align: center;
     max-height: 40rem;
     max-width: 50rem;
-}
+} */
 
 .text-purple{
     color: #6A2C70;
 }
 
-footer{
-    margin-top: 40px;
+.employees{
+    margin-bottom: 40px;
 }
 
 p{
     font-size: 150%;
 }
+.li-text{
+    font-size: 150%;
+}
+
