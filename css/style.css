@@ -14,10 +14,10 @@ header,footer,body{
 
 footer{
     padding: 100px 0;
-    font-size: larger;
+    font-size: large;
 }
 header,body{
-    font-size: larger;
+    font-size: large;
 }
 /* body{
     font-size: larger;
@@ -153,9 +153,12 @@ ul.list-group > li{
     body > div.employees > div > div > div:nth-child(1) > ul{
         height: auto;
     }
+    .li-text,header,p{
+        font-size: medium;
+    }
     
 }
 
-.products-details{
-    margin-top: 30px;
+.employee-profession{
+    font-size: medium;
 }
