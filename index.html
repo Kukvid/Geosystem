@@ -19,8 +19,8 @@
   </head>
   <body>
     <header class="w-100">
-      <nav class="navbar navbar-expand-sm bg-light rounded-top">
-        <div class="container">
+      <nav class="navbar navbar-expand-md bg-light rounded-top">
+        <div class="container-fluid">
           <a href="#" class="navbar-brand">
             <img
               width="60px"
@@ -31,11 +31,12 @@
             />
             <span><strong>Geosystem</strong></span>
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
-            data-toggler="colapse"
-            data-target="#navbarNav"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -46,14 +47,34 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <div class="navbar-nav">
-              <a href="#" class="nav-item nav-link active">Главная</a>
-              <a href="#" class="nav-item nav-link active">О нас</a>
-              <a href="#" class="nav-item nav-link active">Проекты</a>
-              <a href="#" class="nav-item nav-link active">Продукты</a>
-              <a href="#" class="nav-item nav-link active">Личный кабинет</a>
-              <a href="#footer" class="nav-item nav-link active">Контакты</a>
-            </div>
+            <ul class="navbar-nav">
+                <li>
+                  <a href="#" class="nav-item nav-link active"
+                    ><strong>Главная</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="aboutUs.html" class="nav-item nav-link"
+                    ><strong>О нас</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-item nav-link"
+                    ><strong>Проекты</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-item nav-link"
+                    ><strong>Продукты</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="#footer" class="nav-item nav-link"
+                    ><strong>Контакты</strong></a
+                  >
+                </li>
+              </ul>
+            </ul>
           </div>
         </div>
       </nav>

@@ -13,10 +13,20 @@ header,footer,body{
     font-size: medium;
 
 }
-/* header{
-    background-color: var(--color2);
-} */
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
 .products{
+    background-color: var(--color5);
+}
+.benefits{
+    background-color: white;
+}
+.project-stage{
     background-color: var(--color5);
 }
 footer{
@@ -30,7 +40,7 @@ footer{
     font-size: large;
 } */
 body{
-    background-color: #557a95;
+    background-color: var(--color4);
     padding: 5%;
 }
 
@@ -59,6 +69,18 @@ body{
     align-items: center;
 }
 
+.start-cover-about{
+    background-image: url("../pictures/buildiing3.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 /* img{
     min-width: auto;
     min-height: auto;
@@ -66,11 +88,10 @@ body{
     max-height: auto;
 } */
 
-a{
-    text-decoration: none;
-    color:black;
+footer a{
+    color: black;
 }
-a:hover{
+footer a:hover{
     color:var(--color1)
 }
 
@@ -85,7 +106,7 @@ ul.list-group > li{
     max-height: 33%;
 } */
 
-@media (min-width: 581px){
+/* @media (min-width: 581px){
     .our-team-text{
         padding-left: 15%;
         padding-top: 20%;
@@ -111,8 +132,4 @@ ul.list-group > li{
         font-size: medium;
     }
     
-}
-
-.employee-profession{
-    font-size: medium;
-}
+} */
