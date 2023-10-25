@@ -80,6 +80,20 @@ body{
     align-items: center;
     text-align: center;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.dropdown-item:active{
+    background-color: #4F709C;
+}
+.card-header{
+    background-color: white;
+    color: #4F709C;
+}
+#primary{
+    color: #4F709C;
+}
 
 /* img{
     min-width: auto;
@@ -95,7 +109,13 @@ footer a:hover{
     color:var(--color1)
 }
 
-
+.start-cover-apparationComplex .container{
+    max-width: 1140px;
+}
+div.card{
+    background-color: #4F709C;
+    color: white;
+}
 
 
 
