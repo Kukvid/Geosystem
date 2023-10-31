@@ -112,13 +112,15 @@ footer a:hover{
 .start-cover-apparationComplex .container{
     max-width: 1140px;
 }
-div.card{
+.card-bg{
     background-color: #4F709C;
     color: white;
 }
 
 
-
+.pricing-header {
+    max-width: 700px;
+  }
 /* ul.list-group > li > h5{
     margin-top: 20px;
 }
